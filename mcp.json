@@ -1,0 +1,47 @@
+{
+  "name": "tech-monk-ai-mcp",
+  "version": "1.0.0",
+  "description": "Tech Monk AI Model Context Protocol Server for Unified Science, Contemplative Technology & Universal Spirituality",
+  "tools": [
+    {
+      "name": "synthesize_science_and_spirituality",
+      "description": "Cross-reference empirical scientific discoveries with contemplative spiritual wisdom traditions",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "scientific_domain": { "type": "string", "enum": ["quantum_physics", "neuroscience", "cosmology", "cybernetics", "molecular_biology"] },
+          "spiritual_tradition": { "type": "string", "enum": ["vedanta", "buddhism", "taoism", "sufism", "christian_mysticism", "kabbalah", "zen"] },
+          "query": { "type": "string" }
+        },
+        "required": ["scientific_domain", "spiritual_tradition", "query"]
+      }
+    },
+    {
+      "name": "evaluate_contemplative_tech",
+      "description": "Audit algorithms and software architectures for cognitive calm, ethical intentionality, and mindfulness",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "system_architecture": { "type": "string" },
+          "cognitive_load_metric": { "type": "number" },
+          "ethical_invariants": { "type": "array", "items": { "type": "string" } }
+        },
+        "required": ["system_architecture", "ethical_invariants"]
+      }
+    },
+    {
+      "name": "disburse_synthesis_grant",
+      "description": "Trigger an automated micro-escrow disbursement for open science, consciousness research, or contemplative retreat centers",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "domain": { "type": "string" },
+          "recipient": { "type": "string" },
+          "amount_wei": { "type": "string" },
+          "synthesis_proof": { "type": "string" }
+        },
+        "required": ["domain", "recipient", "amount_wei"]
+      }
+    }
+  ]
+}
