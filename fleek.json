@@ -1,0 +1,12 @@
+{
+  "name": "techmonk",
+  "chain": "Generic Web4",
+  "distDir": "dist",
+  "storage": {
+    "provider": "ipfs",
+    "pin": true
+  },
+  "domains": [
+    "techmonk.eth.limo"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "techmonk",
+  "version": "1.0.0",
+  "description": "QMOOSA Web4 Autonomous Architecture for techmonk",
+  "main": "index.js",
+  "license": "MIT"
+}
